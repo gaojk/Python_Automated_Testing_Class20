@@ -63,6 +63,7 @@ finally:    # 无论有没有抛出异常，都会执行finally下的代码块
 
 import random
 
+
 with open("game_file.txt", mode="r", encoding="utf8") as read_game_file:
     game_data = read_game_file.read()
     if len(game_data) > 0:
@@ -72,6 +73,11 @@ with open("game_file.txt", mode="r", encoding="utf8") as read_game_file:
         win_count, lose_count, draw_count = 0, 0, 0
 # 猜拳判断
 def morra(gesture):
+    """
+    猜拳结果逻辑判断
+    :param gesture: 用户出的什么
+    :return: 结果和次数
+    """
     global win_count, lose_count, draw_count
     dict1 = {1: "石头", 2: "剪刀", 3: "布"}
     user = list(dict1.keys())[list(dict1.values()).index(gesture)]
@@ -91,6 +97,11 @@ def morra(gesture):
 
 # 退出游戏存档
 def on_file(*args):
+    """
+    将游戏结果数据保存到txt文件中，方便下次读取
+    :param args: 游戏数据
+    :return: None
+    """
     with open("game_file.txt", mode="w", encoding="utf8") as write_game_file:
         for i in args:
             write_game_file.write(str(i)+",")
