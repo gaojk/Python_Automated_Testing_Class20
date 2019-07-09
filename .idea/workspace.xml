@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="115ad5ab-4472-4434-b7dc-2fd3d65dea69" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="70d93ee7-8ad6-4652-a641-e5addabf510f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Python_0708_job/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_0708_job/python_0708_homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Learning_notes/data_type_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_notes/data_type_conversion.py" afterDir="false" />
+    </list>
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,53 +18,93 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python_0617_Base/lemon_01_first_programe.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="4" selection-start-line="4" selection-end-line="4" />
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Python_0705_job/Python_0705_homework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="26" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="50" selection-end-column="15" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Learning_notes/data_type_conversion.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="368">
               <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Learning_notes/data_type_conversion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Learning_notes/python_dictionary.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python_0708_job/python_0708_homework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Python_0617_Base/1123.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="5220">
               <caret line="174" column="9" selection-start-line="174" selection-end-line="191" selection-end-column="1" />
+=======
+        <entry file="file://$PROJECT_DIR$/Learning_notes/python_dictionary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Python_0617_Base/Python_0705_homework.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
               <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+=======
+        <entry file="file://$PROJECT_DIR$/Python_0703_job/python_0703_homework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="77" selection-start-line="77" selection-end-line="87" selection-end-column="14" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Python_0617_Base/game_file.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -69,6 +118,12 @@
           </provider>
         </entry>
       </file>
+=======
+        <entry file="file://$PROJECT_DIR$/Python_0705_job/game_file.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -84,6 +139,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Python_0617_Base/111.py" />
         <option value="$PROJECT_DIR$/Python_0617_Base/user_info.txt" />
         <option value="$PROJECT_DIR$/Python_0617_Base/1123.py" />
@@ -103,6 +159,24 @@
     <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+=======
+        <option value="$PROJECT_DIR$/Python_0703_job/user_info.txt" />
+        <option value="$PROJECT_DIR$/Python_0703_job/python_0703_homework.py" />
+        <option value="$PROJECT_DIR$/Python_0705_job/Python_0705_homework.py" />
+        <option value="$PROJECT_DIR$/Learning_notes/python_dictionary.py" />
+        <option value="$PROJECT_DIR$/Learning_notes/data_type_conversion.py" />
+        <option value="$PROJECT_DIR$/Python_0708_job/python_0708_homework.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="466" />
+    <option name="y" value="155" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -115,6 +189,7 @@
           <expand>
             <path>
               <item name="Python_Automated_Testing_Class20" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
               <item name="python_Automated_Testing_Class20" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -122,6 +197,25 @@
               <item name="python_Automated_Testing_Class20" type="462c0819:PsiDirectoryNode" />
               <item name="Learning_notes" type="462c0819:PsiDirectoryNode" />
             </path>
+=======
+              <item name="Python_Automated_Testing_Class20" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Automated_Testing_Class20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Automated_Testing_Class20" type="462c0819:PsiDirectoryNode" />
+              <item name="Learning_notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Automated_Testing_Class20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Automated_Testing_Class20" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_0705_job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Automated_Testing_Class20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Automated_Testing_Class20" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_0708_job" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
           </expand>
           <select />
         </subPane>
@@ -131,12 +225,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Python_0617_Base" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\PycharmProjects\python_Automated_Testing_Class20\Python_0617_Base" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python_0703_job" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cango\PycharmProjects\Python_Automated_Testing_Class20\Python_0703_job" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
     </key>
   </component>
   <component name="RunDashboard">
@@ -151,6 +254,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.data_type_conversion">
     <configuration name="1123" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Automated_Testing_Class20" />
@@ -173,6 +277,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+=======
+  <component name="RunManager" selected="Python.python_0708_homework">
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
     <configuration name="Python_0705_homework" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Automated_Testing_Class20" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,11 +288,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_0617_Base" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_0617_Base/Python_0705_homework.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_0705_job" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_0705_job/Python_0705_homework.py" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,7 +330,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="lemon_01_first_programe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="python_0703_homework" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
       <module name="Python_Automated_Testing_Class20" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,11 +342,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_0617_Base" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_0617_Base/lemon_01_first_programe.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_0703_job" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_0703_job/python_0703_homework.py" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,7 +363,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="python_dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="python_0708_homework" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
       <module name="Python_Automated_Testing_Class20" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,11 +375,19 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Learning_notes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Learning_notes/python_dictionary.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_0708_job" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_0708_job/python_0708_homework.py" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +398,18 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.data_type_conversion" />
         <item itemvalue="Python.python_dictionary" />
         <item itemvalue="Python.Python_0705_homework" />
         <item itemvalue="Python.lemon_01_first_programe" />
         <item itemvalue="Python.1123" />
+=======
+        <item itemvalue="Python.python_0708_homework" />
+        <item itemvalue="Python.data_type_conversion" />
+        <item itemvalue="Python.Python_0705_homework" />
+        <item itemvalue="Python.python_0703_homework" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +418,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="115ad5ab-4472-4434-b7dc-2fd3d65dea69" name="Default Changelist" comment="" />
       <created>1560775212097</created>
       <option name="number" value="Default" />
@@ -298,11 +445,40 @@
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1562514208403</updated>
+=======
+      <changelist id="70d93ee7-8ad6-4652-a641-e5addabf510f" name="Default Changelist" comment="" />
+      <created>1562288316274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562288316274</updated>
+    </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1562548203341</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562548203341</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改文件目录">
+      <created>1562550404844</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562550404844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改文件目录">
+      <created>1562550474495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562550474495</updated>
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -320,10 +496,30 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.38134205" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32843137" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49947312" weight="0.09110629" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50052685" side_tool="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+<<<<<<< HEAD
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -343,6 +539,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+=======
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -369,6 +567,7 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -484,6 +683,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+=======
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <MESSAGE value="修改文件目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改文件目录" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1410020350/nt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="646" column="4" selection-start-line="646" selection-start-column="4" selection-end-line="646" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0703_job/user_info.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0703_job/lemon_01_first_programe.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0703_job/url_info.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0705_job/1123.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0705_job/lemon_01_first_programe.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0703_job/1123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="248" column="18" selection-start-line="248" selection-start-column="18" selection-end-line="248" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0703_job/python_0703_homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="77" selection-start-line="77" selection-end-line="87" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0705_job/game_file.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0705_job/Python_0705_homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="50" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_notes/python_dictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Learning_notes/data_type_conversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1410020350/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10584">
+          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0708_job/python_0708_homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+>>>>>>> 360322c564873c8788d6df30195b26612e99121c
         </state>
       </provider>
     </entry>
