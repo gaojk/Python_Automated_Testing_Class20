@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70d93ee7-8ad6-4652-a641-e5addabf510f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Python_0708_job/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_0708_job/python_0708_homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Learning_notes/data_type_conversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_notes/data_type_conversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learning_notes/python_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/Learning_notes/python_dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_0617_job/1123.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_0617_job/Python_0705_homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python_0705_job/Python_0705_homework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_0617_job/game_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python_0705_job/game_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_0617_job/lemon_01_first_programe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_0703_job/1123.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_0705_job/user_info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_0705_job/忘情水.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_0705_job/忘情水copy.mp3" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Learning_notes/data_type_conversion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="460">
+              <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python_0708_job/python_0708_homework.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -82,6 +85,7 @@
         <option value="$PROJECT_DIR$/Python_0705_job/Python_0705_homework.py" />
         <option value="$PROJECT_DIR$/Learning_notes/python_dictionary.py" />
         <option value="$PROJECT_DIR$/Learning_notes/data_type_conversion.py" />
+        <option value="$PROJECT_DIR$/Python_0708_job/python_0708_homework.py" />
       </list>
     </option>
   </component>
@@ -116,6 +120,11 @@
               <item name="Python_Automated_Testing_Class20" type="462c0819:PsiDirectoryNode" />
               <item name="Python_0705_job" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python_Automated_Testing_Class20" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Automated_Testing_Class20" type="462c0819:PsiDirectoryNode" />
+              <item name="Python_0708_job" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.data_type_conversion">
+  <component name="RunManager" selected="Python.python_0708_homework">
     <configuration name="Python_0705_homework" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Automated_Testing_Class20" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -209,8 +218,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python_0708_homework" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Automated_Testing_Class20" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_0708_job" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_0708_job/python_0708_homework.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_0708_homework" />
         <item itemvalue="Python.data_type_conversion" />
         <item itemvalue="Python.Python_0705_homework" />
         <item itemvalue="Python.python_0703_homework" />
@@ -376,8 +407,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Learning_notes/data_type_conversion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="460">
+          <caret line="58" column="19" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/1410020350/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10584">
+          <caret line="488" column="4" selection-start-line="488" selection-start-column="4" selection-end-line="488" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_0708_job/python_0708_homework.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
         </state>
       </provider>
     </entry>

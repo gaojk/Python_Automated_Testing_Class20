@@ -40,3 +40,20 @@ list_to_str1 = ""
 for i in one_list:
     list_to_str1 += i
 print(list_to_str1)
+
+# [list——dict]
+# 通过dict类中的fromkeys方法将列表中的元素作为字典的键，字典值默认为None，也可统一指定值
+one_list = ["number1", "number2", "number3"]
+one_dict = dict.fromkeys(one_list)
+print(one_dict)
+
+# 存在两个列表，可以利用zip函数，将两个列表的元素一一对应组成键值对
+one_list = ["number1", "number2", "number3"]
+two_list = [1, 2, 3]
+one_zip = zip(one_list, two_list)
+print(one_zip)
+one_dict = dict(one_zip)
+print(one_dict)
+
+one_list = [(1, 4), (2, 5), (3, 6)]
+print(dict(one_list))
