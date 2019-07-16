@@ -16,7 +16,8 @@
 import unittest
 
 
-class Operation:
+class Sub:
+
 
     def __init__(self, number1, number2):
         self.number1 = number1
@@ -31,17 +32,17 @@ class Operation:
         return value
 
 
-class Testsubtraction(unittest.TestCase):   # 创建一个测试类，继承unitest包下的TestCase类
-
-    def test_subtraction(self):
-        one_operation = Operation(10, 2)    # 创建一个运算对象
-        actual = one_operation.subtraction()    # 调用subtraction方法，返回计算结果
-        expectation = 8     # 定义期望值
-        self.assertEqual(expectation, actual, msg=f"{one_operation.number1}-{one_operation.number2}不等于{expectation}")  # 判断期望值是否等于实际结果
-
-
-if __name__ == '__main__':
-    unittest.main()
+# class Testsubtraction(unittest.TestCase):   # 创建一个测试类，继承unitest包下的TestCase类
+#
+#     def test_subtraction(self):
+#         one_operation = Sub(10, 2)    # 创建一个运算对象
+#         actual = one_operation.subtraction()    # 调用subtraction方法，返回计算结果
+#         expectation = 8     # 定义期望值
+#         self.assertEqual(expectation, actual, msg=f"{one_operation.number1}-{one_operation.number2}不等于{expectation}")  # 判断期望值是否等于实际结果
+#
+#
+# if __name__ == '__main__':
+#     unittest.main()
 
 # 二、选作题
 # 1.编写如下单元测试
@@ -71,7 +72,7 @@ class Operation:
             write_file.write(result)
 
 
-class Testdivide(unittest.TestCase):   # 创建一个测试类，继承unitest包下的TestCase类
+class Testoperation(unittest.TestCase):   # 创建一个测试类，继承unitest包下的TestCase类
 
     def test_divide(self):
         one_operation = Operation(10, 2)    # 创建一个运算对象
@@ -83,6 +84,21 @@ class Testdivide(unittest.TestCase):   # 创建一个测试类，继承unitest�
         except Exception as e:
             one_operation.save_test_result("result:FAIL")
             raise e
+
+    @classmethod
+    def setUpClass(cls) -> None:
+        Operation.save_test_result("testt")
+
+    @classmethod
+    def tearDown(cls) -> None:
+        Operation.save_test_result("{:*^100}\n".format("测试用例执行结果"))
+
+    def test_subtraction(self):
+        one_operation = Sub(10, 2)    # 创建一个运算对象
+        actual = one_operation.subtraction()    # 调用subtraction方法，返回计算结果
+        expectation = 8     # 定义期望值
+        self.assertEqual(expectation, actual, msg=f"{one_operation.number1}-{one_operation.number2}不等于{expectation}")  # 判断期望值是否等于实际结果
+
 
 
 if __name__ == '__main__':
