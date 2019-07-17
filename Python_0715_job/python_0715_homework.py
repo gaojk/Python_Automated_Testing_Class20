@@ -13,13 +13,15 @@ import unittest
 # 	a.需要使用日志文件，来记录用例执行日志
 
 
-from Python_0712_job import python_0712_homework    # 导入需要测试的模块
+from Python_0715_job import python_0712_homework
+
 # 创建测试套件对象
 one_suite = unittest.TestSuite()
 # 创建测试加载器对象
 one_loader = unittest.TestLoader()
 # 将测试用例添加到测试套件
 one_suite.addTest(one_loader.loadTestsFromModule(python_0712_homework))
+# one_suite.addTest(one_loader.discover(start_dir=".", pattern="python*"))
 # 创建执行器对象
 one_runner = unittest.TextTestRunner()
 one_runner.run(one_suite)

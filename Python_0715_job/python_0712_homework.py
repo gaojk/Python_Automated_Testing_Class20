@@ -42,11 +42,11 @@ class Testoperation(unittest.TestCase):   # 创建一个测试类，继承unites
     @classmethod
     def setUpClass(cls) -> None:
         cls.write_file = open("result.txt", mode="a", encoding="utf-8")
-        cls.write_file.write("{:#^50}\n".format("测试用例开始执行"))
+        cls.write_file.write("{:-^50}\n".format("测试用例开始执行"))
 
     @classmethod
     def tearDownClass(cls) -> None:
-        cls.write_file.write("{:#^50}".format("测试用例执行结果"))
+        cls.write_file.write("{:-^50}\n".format("测试用例执行结果"))
         cls.write_file.close()
 
     def test_divide(self):
@@ -66,6 +66,7 @@ class Testoperation(unittest.TestCase):   # 创建一个测试类，继承unites
         expectation = 8     # 定义期望值
         try:
             self.assertEqual(expectation, actual, msg=f"{one_operation.number1}-{one_operation.number2}不等于{expectation}")  # 判断期望值是否等于实际结果
+            self.write_file.write("用例执行结果为：【PASS】\n")
         except Exception as e:
             self.write_file.write("用例执行结果为：【FAIL】{}\n".format(e))
             raise e
