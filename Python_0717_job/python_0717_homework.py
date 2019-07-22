@@ -14,6 +14,9 @@ import unittest
 
 
 from Python_0717_job import python_0712_homework
+from HTMLTestRunnerNew import HTMLTestRunner
+import time
+import os
 
 # 创建测试套件对象
 one_suite = unittest.TestSuite()
@@ -23,5 +26,11 @@ one_loader = unittest.TestLoader()
 one_suite.addTest(one_loader.loadTestsFromModule(python_0712_homework))
 # one_suite.addTest(one_loader.discover(start_dir=".", pattern="python*"))
 # 创建执行器对象
-one_runner = unittest.TextTestRunner()
-one_runner.run(one_suite)
+# one_runner = unittest.TextTestRunner()
+if not os.path.exists("test_reports"):  # 判断目录是否存在，不存在创建测试报告存放目录
+    os.mkdir("test_reports")
+
+current_time = time.strftime("%Y-%m-%d", time.localtime())  # 获取当前时间并格式化
+with open("test_reports/report{}.html".format(current_time), mode="wb") as write_report:
+    one_runner = HTMLTestRunner(stream=write_report, verbosity=2, title="测试报告", description="11111111", tester="jinbiao")
+    one_runner.run(one_suite)
