@@ -5,7 +5,7 @@ class OperationConfig:
     """
     操作配置文件
     """
-    def __init__(self, filename, section=None, option=None):
+    def __init__(self, section, option, filename="config.ini"):
         """
         构造方法，初始化实例属性
         :param filename: 配置文件路径
@@ -16,7 +16,7 @@ class OperationConfig:
         self.section = section
         self.option = option
         self.cp = ConfigParser()
-        self.cp.read(filename, encoding="utf-8")
+        self.cp.read(self.filename, encoding="utf-8")
 
     def get_value(self):
         return self.cp.get(section=self.section, option=self.option)
@@ -53,7 +53,7 @@ class OperationConfig:
 
 
 if __name__ == '__main__':
-    op = OperationConfig(filename="config.ini", section="EXCEL", option="l_data")
+    op = OperationConfig(section="EXCEL", option="l_data")
     print(op.get_value())
     config_data = {"EXCEL": {"case_id": 1}, "PATH": {"excelpath": "test_data.xlsx"}}
     op.write_config(filename="test.ini", datas=config_data)

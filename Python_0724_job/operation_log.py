@@ -1,26 +1,47 @@
 # @Time :2019/7/24 22:53
 # @Author :jinbiao
 import logging
-import logging
+from Python_0724_job.operation_config import OperationConfig
+
+stream_level = OperationConfig(section="LOG", option="stream_level").get_value()
+file_level = OperationConfig(section="LOG", option="file_level").get_value()
+log_format = OperationConfig(section="LOG", option="log_format").get_value()
+log_path = OperationConfig(section="PATH", option="logpath").get_value()
+
 
 class OperationLog:
-    def __init__(self):
-        self.logger = logging.getLogger("case")  # 定义日志收集器
-        self.logger.setLevel(level=logging.DEBUG)    # 设置收集器的日志级别
-        handler_stream = logging.StreamHandler()    # 定义日志输出渠道（控制台）
-        handler_file = logging.FileHandler(filename="api_test.log", encoding="utf-8")    # 定义日志输出渠道（文件）
-        handler_stream.setLevel(level=logging.ERROR)    # 定义渠道日志输出级别
-        handler_file.setLevel(level=logging.INFO)
-        formatter = logging.Formatter("%(asctime)s %(name)s %(levelname)s %(message)s")    # 格式化日志
+    """
+    操作日志
+    """
+    def __init__(self, logger_name):
+        """
+        定义日志对象
+        :param logger_name: logger对象名称
+        """
+        self.logger = logging.getLogger(logger_name)  # 定义日志收集器
+        self.logger.setLevel(level=logging.DEBUG)  # 设置收集器的日志级别
+        handler_stream = logging.StreamHandler()  # 定义日志输出渠道（控制台）
+        handler_file = logging.FileHandler(filename="api_test.log", encoding="utf-8")  # 定义日志输出渠道（文件）
+        handler_stream.setLevel(level=stream_level)  # 定义渠道日志输出级别
+        handler_file.setLevel(level=file_level)
+        formatter = logging.Formatter(log_format)  # 格式化日志
         handler_file.setFormatter(formatter)
         handler_stream.setFormatter(formatter)
-        self.logger.addHandler(handler_stream)   # 收集器添加渠道
+        self.logger.addHandler(handler_stream)  # 收集器添加渠道
         self.logger.addHandler(handler_file)
 
     def get_log(self):
+        """
+        获取日志对象
+        :return:日志对象
+        """
+        print(type(self.logger))
         return self.logger
+        pass
 
-log = OperationLog().get_log()
+
+log = OperationLog("case").get_log()
 
 if __name__ == '__main__':
-    OperationLog().logger.info("11111")
+    log.error("11111")
+

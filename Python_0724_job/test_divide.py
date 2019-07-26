@@ -5,10 +5,10 @@ from Python_0724_job.operation_excel import OperationExcel
 from Python_0724_job.operation_config import OperationConfig
 import unittest
 from Python_0724_job.ddt import ddt, data
-from Python_0724_job.operation_log import OperationLog
+from Python_0724_job.operation_log import log
 
-excel_name = OperationConfig("config.ini", "PATH", "excelpath").get_value()
-result_path = OperationConfig("config.ini", "PATH", "resultpath").get_value()
+excel_name = OperationConfig("PATH", "excelpath").get_value()
+result_path = OperationConfig("PATH", "resultpath").get_value()
 oe = OperationExcel(excel_name=excel_name, sheet_name="divide")
 test_data = oe.get_data()
 
@@ -18,14 +18,11 @@ class Testoperation(unittest.TestCase):   # 创建一个测试类，继承unites
 
     @classmethod
     def setUpClass(cls) -> None:
-        cls.write_file = open(file=result_path, mode="a", encoding="utf-8")
-        cls.write_file.write("{:-^50}\n".format("测试用例开始执行"))
-        OperationLog.logger
+        log.info("{:-^50}".format("测试用例开始执行"))
 
     @classmethod
     def tearDownClass(cls) -> None:
-        cls.write_file.write("{:-^50}\n".format("测试用例执行结果"))
-        cls.write_file.close()
+        log.info("{:-^50}".format("测试用例结束执行"))
 
 
     @data(*test_data)
@@ -37,10 +34,10 @@ class Testoperation(unittest.TestCase):   # 创建一个测试类，继承unites
         description = data["description"]
         try:
             self.assertEqual(expectation, actual, msg=f"{description}{one_operation.number1}/{one_operation.number2}不等于{expectation}")  # 判断期望值是否等于实际结果
-            self.write_file.write("用例执行结果为：【PASS】\n")
+            log.info("用例执行结果为：【PASS】")
             oe.write_data(data["case_id"]+1, actual=actual, result="PASS")
         except Exception as e:
-            self.write_file.write("用例执行结果为：【FAIL】{}\n".format(e))
+            log.error("用例执行结果为：【FAIL】{}\n".format(e))
             oe.write_data(data["case_id"] + 1, actual=actual, result="FAIL")
             raise e
 

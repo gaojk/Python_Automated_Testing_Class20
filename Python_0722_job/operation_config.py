@@ -52,6 +52,8 @@ class OperationConfig:
             print("配置文件数据格式错误")
 
 
+
+
 if __name__ == '__main__':
     op = OperationConfig(filename="config.ini", section="EXCEL", option="l_data")
     print(op.get_value())
