@@ -1,15 +1,13 @@
-from configparser import ConfigParser
+import logging
 
-
-cp = ConfigParser()    # 创建cp对象
-cp.read(filenames="config.ini", encoding="utf-8")   # 读取配置文件
-value1 = cp.get(section="EXCEL", option="case_id")   # 获取配置文件的值
-value2 = cp["EXCEL"]["method"]
-print(value1, value2)
-
-
-one_dict = {"EXCEL": {"case_id": 1, "request_url": "www.baidu.com", "method": "post"}}    # 定义一个嵌套字典的字典
-for data in one_dict:   # 循环字典，将字典的键值传给配置文件，并写入
-    cp[data] = one_dict[data]
-    with open(file="config2.ini", mode="w", encoding="utf-8") as write_conf:
-        cp.write(fp=write_conf)
+logger = logging.getLogger(name="name")    # 创建logger日志收集器对象
+logger.setLevel(level="DEBUG")    # 定义日志收集器的级别
+stream = logging.StreamHandler()    # 定义日志输出渠道（控制台）
+file = logging.FileHandler(filename="test.log", encoding="utf-8")   # 定义日志输出渠道（文件）
+stream.setLevel(level="ERROR")
+file.setLevel(level="INFO")
+formater = logging.Formatter("%(asctime)s %(name)s %(levelname)s %(message)s")
+stream.setFormatter(formater)
+file.setFormatter(formater)
+logger.addHandler(stream)   # 收集器添加渠道
+logger.addHandler(file)
