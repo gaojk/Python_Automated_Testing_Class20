@@ -15,9 +15,9 @@ class OperationRequest:
             res = self.session.get(url=url, param=data)
         elif method == "post":
             if is_json:
-                res = self.session.post(url=url, data=data)
-            else:
                 res = self.session.post(url=url, json=data)
+            else:
+                res = self.session.post(url=url, data=data)
         return res
 
 
