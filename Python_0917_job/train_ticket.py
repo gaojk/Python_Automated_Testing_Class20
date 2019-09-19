@@ -38,4 +38,3 @@ train_date.value = "2019-10-10";"""
 driver.execute_script(script=start_off_js)
 serch = driver.find_element(*serch_element)
 serch.click()
-1
